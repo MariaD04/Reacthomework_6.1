@@ -8,7 +8,6 @@ export default class Form extends Component {
             capital: '',
             timeZone: ''
         };
-
         this.handleInputChange = this.handleInputChange.bind(this);
         this.handleSubmit = this.handleSubmit.bind(this);
     }
