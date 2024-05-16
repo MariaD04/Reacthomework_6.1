@@ -1,0 +1,77 @@
+#root {
+  position: relative;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+form {
+  display: flex;
+}
+
+.form-control {
+  margin: 5px;
+}
+
+.form-label {
+  position: absolute;
+  top: 15px;
+}
+
+.form-input {
+  width: 164px;
+  height: 30px;
+}
+
+.form-button {
+  width: 125px;
+  height: 35px;
+  margin: 5px;
+}
+
+.clocks-container {
+  display: flex;
+  margin: 15px;
+}
+
+.clock-container {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  margin-right: 25px;
+}
+
+.capital {
+  margin: 0px
+}
+
+.clock-time {
+  position: absolute;
+  left: 11px;
+  width: 80px;
+  height: 80px;
+  border: 2px solid #000;
+  border-radius: 50%;
+}
+
+.time {
+  position: absolute;
+  top: 29px;
+  left: 16px;
+}
+
+.clock-delete {
+  position: absolute;
+  top: 10px;
+  left: 95px;
+  width: 25px;
+  height: 25px;
+  padding: 1px;
+  border: 2px solid #000;
+  border-radius: 50%;
+}
